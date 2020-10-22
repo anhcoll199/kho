@@ -1,0 +1,17 @@
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\QLKho.exe.config
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\QLKho.exe
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\QLKho.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.csprojAssemblyReference.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.Properties.Resources.resources
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.csproj.GenerateResource.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.csproj.CoreCompileInputs.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.exe
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.Form2.resources
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\BUS.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\DTO.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\BUS.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\DTO.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\obj\Debug\QLKho.csproj.CopyComplete
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\DAL.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\QLKho\bin\Debug\DAL.pdb

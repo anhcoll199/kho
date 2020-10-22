@@ -1,0 +1,5 @@
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\bin\Debug\DTO.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\bin\Debug\DTO.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\obj\Debug\DTO.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\obj\Debug\DTO.pdb

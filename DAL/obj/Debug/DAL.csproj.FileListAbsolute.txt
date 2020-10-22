@@ -1,0 +1,9 @@
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\bin\Debug\DAL.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\bin\Debug\DAL.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\bin\Debug\DTO.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\bin\Debug\DTO.pdb
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.dll
+D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.pdb
