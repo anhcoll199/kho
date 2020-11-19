@@ -24,5 +24,33 @@ namespace QLKho
         {
             BangSup.DataSource = bus.getAll();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void taoPhieuDatHang1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox3_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void guna2TextBox4_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

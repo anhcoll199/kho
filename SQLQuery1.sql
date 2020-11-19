@@ -1,11 +1,13 @@
-CREATE DATABASE QLKHO
-
+﻿CREATE DATABASE QLKHO
+GO
+USE QLKHO
+GO
 create table Unit
 (
 	Id int identity(1,1) primary key,
 	DisplayName nvarchar(max)
 )
-GO
+GOg
 
 CREATE TABLE Suplier
 (	
@@ -29,13 +31,14 @@ create table Users
 	Password nvarchar(50),
 	IdUserRole varchar(10)
 )
-
+go
 create table Object
 (
 	Id nvarchar(128) primary key,
 	DisplayName nvarchar(max),
 	IdUnit int not null,
-	SoLuongTon int
+	SoLuongTon INT,
+    IdSuplier NVARCHAR(10)
 )
 go
 
@@ -80,7 +83,7 @@ create table OutputInfo
 )
 GO
 
-
+DROP DATABASE QLKHO
 ------------------------------------------------------------------------
 ALTER TABLE dbo.Users ADD CONSTRAINT fk_quyen FOREIGN KEY(IdUserRole) REFERENCES dbo.UserRole(Id)
 ALTER TABLE dbo.Input ADD CONSTRAINT fk_ncc FOREIGN KEY(IdSuplier) REFERENCES dbo.Suplier(IdSuplier)
@@ -100,10 +103,239 @@ ALTER TABLE dbo.OutputInfo ADD CONSTRAINT fk_ctphieusuat2 FOREIGN KEY(IdObject) 
 
 ---------------------------------------------------------------------------------------------------
 
-SELECT* FROM dbo.Suplier
 SELECT* FROM dbo.Object
 SELECT* FROM dbo.Output
 SELECT* FROM dbo.OutputInfo
+SELECT* FROM dbo.Input
+SELECT* FROM dbo.InputInfo
+SELECT* FROM dbo.Suplier
+SELECT* FROM dbo.Unit
 SELECT* FROM dbo.Users
+SELECT* FROM dbo.UserRole
 
 
+-----------Them NCC--------------
+INSERT dbo.Suplier
+        ( IdSuplier ,
+          DisplayName ,
+          Address ,
+          Phone ,
+          Email 
+        )
+
+VALUES  ( N'NCC001' , -- IdSuplier - nvarchar(10)
+          N'Vinavilk' , -- DisplayName - nvarchar(1000)
+          N'273 An Duong Vuong' , -- Address - nvarchar(100)
+          N'0374659500' , -- Phone - nvarchar(20)
+          N'vinamilk@gmial.com'  -- Email - nvarchar(200)
+        )
+INSERT dbo.Suplier
+        ( IdSuplier ,
+          DisplayName ,
+          Address ,
+          Phone ,
+          Email 
+        )
+VALUES  ( N'NCC002' , -- IdSuplier - nvarchar(10)
+          N'CocaCola' , -- DisplayName - nvarchar(1000)
+          N'273 An Duong Vuong' , -- Address - nvarchar(100)
+          N'0374659500' , -- Phone - nvarchar(20)
+          N'vinamilk@gmial.com'  -- Email - nvarchar(200)
+        )
+
+INSERT dbo.Suplier
+        ( IdSuplier ,
+          DisplayName ,
+          Address ,
+          Phone ,
+          Email 
+        )
+VALUES  ( N'NCC003' , -- IdSuplier - nvarchar(10)
+          N'PepSi' , -- DisplayName - nvarchar(1000)
+          N'273 An Duong Vuong' , -- Address - nvarchar(100)
+          N'0374659500' , -- Phone - nvarchar(20)
+          N'vinamilk@gmial.com'  -- Email - nvarchar(200)
+        )
+-------------Them Don Vi Tinh-----------------
+INSERT dbo.Unit
+        ( DisplayName )
+VALUES  ( N'Thung'  -- DisplayName - nvarchar(max)
+          )
+
+INSERT dbo.Unit
+        ( DisplayName )
+VALUES  ( N'Bao'  -- DisplayName - nvarchar(max)
+          )
+
+INSERT dbo.Unit
+        ( DisplayName )
+VALUES  ( N'Goi'  -- DisplayName - nvarchar(max)
+          )
+
+--------------Them Sp----------------
+INSERT dbo.Object
+        ( Id ,
+          DisplayName ,
+          IdUnit ,
+          SoLuongTon ,
+          IdSuplier
+        )
+VALUES  ( N'SP001' , -- Id - nvarchar(128)
+          N'Sua tuoi ko duong' , -- DisplayName - nvarchar(max)
+          1 , -- IdUnit - int
+          10 , -- SoLuongTon - int
+          N'NCC001'  -- IdSuplier - nvarchar(10)
+        )
+
+INSERT dbo.Object
+        ( Id ,
+          DisplayName ,
+          IdUnit ,
+          SoLuongTon ,
+          IdSuplier
+        )
+VALUES  ( N'SP002' , -- Id - nvarchar(128)
+          N'Sua tuoi co duong' , -- DisplayName - nvarchar(max)
+          1 , -- IdUnit - int
+          10 , -- SoLuongTon - int
+          N'NCC001'  -- IdSuplier - nvarchar(10)
+        )
+
+INSERT dbo.Object
+        ( Id ,
+          DisplayName ,
+          IdUnit ,
+          SoLuongTon ,
+          IdSuplier
+        )
+VALUES  ( N'SP003' , -- Id - nvarchar(128)
+          N'Nuoc ngot Pepsi' , -- DisplayName - nvarchar(max)
+          1 , -- IdUnit - int
+          10 , -- SoLuongTon - int
+          N'NCC003'  -- IdSuplier - nvarchar(10)
+        )
+
+INSERT dbo.Object
+        ( Id ,
+          DisplayName ,
+          IdUnit ,
+          SoLuongTon ,
+          IdSuplier
+        )
+VALUES  ( N'SP004' , -- Id - nvarchar(128)
+          N'Nuoc ngot CocaCola' , -- DisplayName - nvarchar(max)
+          1 , -- IdUnit - int
+          10 , -- SoLuongTon - int
+          N'NCC002'  -- IdSuplier - nvarchar(10)
+        )
+--------------------Them Quyen----------------
+INSERT dbo.UserRole
+        ( Id, DisplayName )
+VALUES  ( 'QLK', -- Id - varchar(10)
+          N'Quan Ly Kho'  -- DisplayName - nvarchar(max)
+          )
+
+INSERT dbo.UserRole
+        ( Id, DisplayName )
+VALUES  ( 'NV', -- Id - varchar(10)
+          N'Nhân viên'  -- DisplayName - nvarchar(max)
+          )
+------------Them Nhan Vien--------------------
+INSERT dbo.Users
+        ( Id ,
+          DisplayName ,
+          Address ,
+          Phone ,
+          Email ,
+          Username ,
+          Password ,
+          IdUserRole
+        )
+VALUES  ( N'NV001' , -- Id - nvarchar(10)
+          N'Nguyen Van A' , -- DisplayName - nvarchar(max)
+          N'273 An Duong Vuong' , -- Address - nvarchar(max)
+          '0374659500' , -- Phone - varchar(20)
+          'khaitriuenguyen@gmail.com' , -- Email - varchar(200)
+          N'user1' , -- Username - nvarchar(50)
+          N'user1' , -- Password - nvarchar(50)
+          'QLK'  -- IdUserRole - varchar(10)
+        )
+INSERT dbo.Users
+        ( Id ,
+          DisplayName ,
+          Address ,
+          Phone ,
+          Email ,
+          Username ,
+          Password ,
+          IdUserRole
+        )
+VALUES  ( N'NV002' , -- Id - nvarchar(10)
+          N'Tran Van B' , -- DisplayName - nvarchar(max)
+          N'Quận 1' , -- Address - nvarchar(max)
+          '0929087540' , -- Phone - varchar(20)
+          'thanhnc@gmail.com' , -- Email - varchar(200)
+          N'user2' , -- Username - nvarchar(50)
+          N'123123' , -- Password - nvarchar(50)
+          'QLK'  -- IdUserRole - varchar(10)
+        )
+----Them phieu nhap------------
+INSERT dbo.Input 
+        ( Id, DateInput, IdUser, IdSuplier )
+VALUES  ( N'PN001', -- Id - nvarchar(128)
+          GETDATE(), -- DateInput - datetime
+          N'NV001', -- IdUser - nvarchar(10)
+          N'NCC001'  -- IdSuplier - nvarchar(10)
+          )
+
+----------Them ct phieu nhap---------
+INSERT dbo.InputInfo
+        ( Id ,
+          IdObject ,
+          Quantity ,
+          InputPrice ,
+          OutputPrice 
+        )
+VALUES  ( N'PN001' , -- Id - nvarchar(128)
+          N'SP001' , -- IdObject - nvarchar(128)
+          10 , -- Quantity - int
+          100000 , -- InputPrice - float
+          150000  -- OutputPrice - float
+        )
+
+INSERT dbo.InputInfo
+        ( Id ,
+          IdObject ,
+          Quantity ,
+          InputPrice ,
+          OutputPrice 
+        )
+VALUES  ( N'PN001' , -- Id - nvarchar(128)
+          N'SP002' , -- IdObject - nvarchar(128)
+          10 , -- Quantity - int
+          100000 , -- InputPrice - float
+          150000  -- OutputPrice - float
+        )
+
+-----------Them phieu xuat----------
+INSERT dbo.Output
+        ( Id, DateOutput, IdUser )
+VALUES  ( N'PX001', -- Id - nvarchar(128)
+          GETDATE(), -- DateOutput - datetime
+          N'NV001'  -- IdUser - nvarchar(10)
+          )
+
+-----Them ct phieu xuat-------
+INSERT dbo.OutputInfo
+        ( Id, IdObject, Quantity )
+VALUES  ( N'PX001', -- Id - nvarchar(128)
+          N'SP001', -- IdObject - nvarchar(128)
+          3 -- Quantity - int
+          )
+
+INSERT dbo.OutputInfo
+        ( Id, IdObject, Quantity )
+VALUES  ( N'PX001', -- Id - nvarchar(128)
+          N'SP002', -- IdObject - nvarchar(128)
+          5 -- Quantity - int
+          )

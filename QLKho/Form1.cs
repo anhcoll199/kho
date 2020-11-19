@@ -16,5 +16,23 @@ namespace QLKho
         {
             InitializeComponent();
         }
+
+        private void nhap1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (UC_01.Visible)
+                UC_01.Hide();
+            else
+                UC_01.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            UC_01.Hide();
+        }
     }
 }

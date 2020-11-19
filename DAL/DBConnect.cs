@@ -9,6 +9,6 @@ namespace DAL
 {
     public class DBConnect
     {
-        protected SqlConnection _conn = new SqlConnection("Data Source=DESKTOP-I9V951J;Initial Catalog=QLKHO;Integrated Security=True");
+        protected SqlConnection _conn = new SqlConnection("Data Source=THANHNC-HV;Initial Catalog=StorageDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
     }
 }

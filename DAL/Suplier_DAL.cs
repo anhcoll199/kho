@@ -12,7 +12,7 @@ namespace DAL
     {
         public DataTable getAll()
         {
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Suplier", _conn);
+            SqlDataAdapter da = new SqlDataAdapter("EXEC dbo.USP_GET_Product", _conn);
             DataTable dtSuplier = new DataTable();
             da.Fill(dtSuplier);
             return dtSuplier;
