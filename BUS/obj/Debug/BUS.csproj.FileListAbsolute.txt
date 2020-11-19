@@ -9,3 +9,14 @@ D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\BUS\obj\Debug\BU
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\BUS\obj\Debug\BUS.dll
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\BUS\obj\Debug\BUS.pdb
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\BUS.dll
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\BUS.pdb
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\DAL.dll
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\DTO.dll
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\DAL.pdb
+C:\Users\THANH\source\repos\Kho\kho\BUS\bin\Debug\DTO.pdb
+C:\Users\THANH\source\repos\Kho\kho\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\THANH\source\repos\Kho\kho\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\THANH\source\repos\Kho\kho\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\THANH\source\repos\Kho\kho\BUS\obj\Debug\BUS.dll
+C:\Users\THANH\source\repos\Kho\kho\BUS\obj\Debug\BUS.pdb

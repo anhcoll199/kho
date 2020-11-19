@@ -29,22 +29,34 @@
         private void InitializeComponent()
         {
             this.BangSup = new System.Windows.Forms.DataGridView();
+            this.taoPhieuDatHang1 = new QLKho.TaoPhieuDatHang();
             ((System.ComponentModel.ISupportInitialize)(this.BangSup)).BeginInit();
             this.SuspendLayout();
             // 
             // BangSup
             // 
             this.BangSup.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.BangSup.Location = new System.Drawing.Point(12, 141);
+            this.BangSup.Location = new System.Drawing.Point(663, 368);
             this.BangSup.Name = "BangSup";
-            this.BangSup.Size = new System.Drawing.Size(764, 166);
+            this.BangSup.Size = new System.Drawing.Size(100, 166);
             this.BangSup.TabIndex = 0;
+            // 
+            // taoPhieuDatHang1
+            // 
+            this.taoPhieuDatHang1.BackColor = System.Drawing.Color.White;
+            this.taoPhieuDatHang1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.taoPhieuDatHang1.Location = new System.Drawing.Point(0, 0);
+            this.taoPhieuDatHang1.Name = "taoPhieuDatHang1";
+            this.taoPhieuDatHang1.Size = new System.Drawing.Size(861, 531);
+            this.taoPhieuDatHang1.TabIndex = 1;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(861, 546);
+            this.Controls.Add(this.taoPhieuDatHang1);
             this.Controls.Add(this.BangSup);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -57,5 +69,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView BangSup;
+        private TaoPhieuDatHang taoPhieuDatHang1;
     }
 }
