@@ -47,7 +47,7 @@
             this.taoPhieuDatHang1.Dock = System.Windows.Forms.DockStyle.Top;
             this.taoPhieuDatHang1.Location = new System.Drawing.Point(0, 0);
             this.taoPhieuDatHang1.Name = "taoPhieuDatHang1";
-            this.taoPhieuDatHang1.Size = new System.Drawing.Size(861, 531);
+            this.taoPhieuDatHang1.Size = new System.Drawing.Size(861, 378);
             this.taoPhieuDatHang1.TabIndex = 1;
             // 
             // Form2

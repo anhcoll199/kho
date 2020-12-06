@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL;
+using DTO;
 
 namespace BUS
 {
@@ -12,9 +13,13 @@ namespace BUS
     {
         Suplier_DAL dal = new Suplier_DAL();
 
-        public DataTable getAll()
+        public DataTable getSuplier()
         {
-            return dal.getAll();
+            return dal.getSuplier();
+        }
+        public int AddSuplier(Suplier suplier)
+        {
+            return dal.AddSuplier(suplier);
         }
     }
 }

@@ -42,6 +42,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChartYearDTO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,11 +100,53 @@
     <Compile Include="TaoPhieuDatHang.Designer.cs">
       <DependentUpon>TaoPhieuDatHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongKe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongTinKho.Designer.cs">
+      <DependentUpon>ThongTinKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="TạoPhieuNhapHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TạoPhieuNhapHang.Designer.cs">
       <DependentUpon>TạoPhieuNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DatHang.Designer.cs">
+      <DependentUpon>UC_DatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NhapHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NhapHang.Designer.cs">
+      <DependentUpon>UC_NhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ThongKe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ThongKe.Designer.cs">
+      <DependentUpon>UC_ThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ThongTin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ThongTin.Designer.cs">
+      <DependentUpon>UC_ThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XuatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XuatHang.Designer.cs">
+      <DependentUpon>XuatHang.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -135,8 +179,26 @@
     <EmbeddedResource Include="TaoPhieuDatHang.resx">
       <DependentUpon>TaoPhieuDatHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinKho.resx">
+      <DependentUpon>ThongTinKho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TạoPhieuNhapHang.resx">
       <DependentUpon>TạoPhieuNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DatHang.resx">
+      <DependentUpon>UC_DatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NhapHang.resx">
+      <DependentUpon>UC_NhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ThongKe.resx">
+      <DependentUpon>UC_ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ThongTin.resx">
+      <DependentUpon>UC_ThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XuatHang.resx">
+      <DependentUpon>XuatHang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -190,6 +252,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dashboard %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checklist %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

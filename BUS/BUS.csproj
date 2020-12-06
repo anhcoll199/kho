@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chart_BUS.cs" />
+    <Compile Include="Export_BUS.cs" />
+    <Compile Include="Import_BUS.cs" />
+    <Compile Include="Order_BUS.cs" />
+    <Compile Include="OutputBUS.cs" />
+    <Compile Include="Package_BUS.cs" />
     <Compile Include="Suplier_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_BUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

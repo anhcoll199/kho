@@ -8,26 +8,25 @@ namespace DTO
 {
     public class OrderDTO
     {
-        private string IdObject { get; set; }
-        private string IdSuplier { get; set; }
-        private string DisplayNameObject { get; set; }
-        private string DisplayNameSuplier { get; set; }
-        private string Amount { get; set; }
-        private DateTime CreatedDate { get; set; }
-        private DateTime DeliveryDate { get; set; }
+        public string IdOrder { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public string status { get; set; }
+        public string idUser { get; set; }
 
 
         public OrderDTO() { }
-
-        public OrderDTO(string IdObject, string IdSuplier, string DisplayNameObject, string DisplayNameSuplier, string Amount, DateTime CreatedDate, DateTime DeliveryDate)
+        public OrderDTO(string IdOrder, string idUser)
         {
-            this.IdObject = IdObject;
-            this.IdSuplier = IdSuplier;
-            this.DisplayNameObject = DisplayNameObject;
-            this.DisplayNameSuplier = DisplayNameSuplier;
-            this.Amount = Amount;
+            this.IdOrder = IdOrder;
+            this.idUser = idUser;
+        }
+
+        public OrderDTO(string IdOrder, DateTime CreatedDate, string status, string idUser)
+        {
+            this.IdOrder = IdOrder;
             this.CreatedDate = CreatedDate;
-            this.DeliveryDate = DeliveryDate;
+            this.status = status;
+            this.idUser = idUser;
         }
 
         

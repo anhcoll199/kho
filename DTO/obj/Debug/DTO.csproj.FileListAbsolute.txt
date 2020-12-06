@@ -5,7 +5,6 @@ D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\obj\Debug\DT
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DTO\obj\Debug\DTO.pdb
 C:\Users\THANH\source\repos\Kho\kho\DTO\bin\Debug\DTO.dll
 C:\Users\THANH\source\repos\Kho\kho\DTO\bin\Debug\DTO.pdb
-C:\Users\THANH\source\repos\Kho\kho\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 C:\Users\THANH\source\repos\Kho\kho\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\THANH\source\repos\Kho\kho\DTO\obj\Debug\DTO.dll
 C:\Users\THANH\source\repos\Kho\kho\DTO\obj\Debug\DTO.pdb

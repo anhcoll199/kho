@@ -11,14 +11,16 @@ namespace QLKho
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        static Form3 loginForm;
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
-            Application.Run(new Form5());
-            Application.Run(new Form3());
+            loginForm = new Form3();
+            Application.Run(loginForm);
+            //Application.Run(new Form5());
         }
     }
 }

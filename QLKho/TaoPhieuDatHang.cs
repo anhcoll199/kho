@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DTO;
 
 namespace QLKho
 {
@@ -19,12 +20,23 @@ namespace QLKho
 
         private void guna2TextBox3_Load(object sender, EventArgs e)
         {
-            guna2TextBox3.Text = DateTime.Now.ToString("yyyy.MM.dd");
+            
         }
 
         private void guna2TextBox4_Load(object sender, EventArgs e)
         {
-            guna2TextBox4.Text = "Chờ xử lí";
+            txtStatusOrderDetail.Text = "Chờ xử lí";
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //UC_DatHang.panelOrdertab2.Visible = true;
+        }
+
+        private void guna2TextBox2_Load(object sender, EventArgs e)
+        {
+            txtNhanVienOrderDetail.Text = LoginVar.ID;
         }
     }
 }

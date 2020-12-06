@@ -22,7 +22,7 @@ namespace QLKho
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            BangSup.DataSource = bus.getAll();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

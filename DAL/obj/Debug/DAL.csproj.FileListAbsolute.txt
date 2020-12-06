@@ -7,12 +7,12 @@ D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DA
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.dll
 D:\NguyenKhaiTrieu\Hệ thống thông tin doanh nghiệp\QLKho\DAL\obj\Debug\DAL.pdb
-C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.dll
-C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.pdb
 C:\Users\THANH\source\repos\Kho\kho\DAL\bin\Debug\DAL.dll
 C:\Users\THANH\source\repos\Kho\kho\DAL\bin\Debug\DAL.pdb
 C:\Users\THANH\source\repos\Kho\kho\DAL\bin\Debug\DTO.dll
 C:\Users\THANH\source\repos\Kho\kho\DAL\bin\Debug\DTO.pdb
+C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.dll
+C:\Users\THANH\source\repos\Kho\kho\DAL\obj\Debug\DAL.pdb

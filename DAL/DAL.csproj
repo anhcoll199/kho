@@ -41,9 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chart_DAL.cs" />
     <Compile Include="DBConnect.cs" />
+    <Compile Include="Export_DAL.cs" />
+    <Compile Include="Import_DAL.cs" />
+    <Compile Include="Order_DAL.cs" />
+    <Compile Include="OutPutDAL.cs" />
+    <Compile Include="Package_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Suplier_DAL.cs" />
+    <Compile Include="User_DAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
